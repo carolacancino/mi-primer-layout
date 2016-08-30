@@ -1,0 +1,296 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0px;
+
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0px auto;
+	text-align: center;
+}
+.row:before, .row:after{
+	content: " ";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+header, nav, article {
+	width: 90%;
+	max-width: 1200px;
+	margin: 40px auto;
+}
+
+header{
+	overflow: hidden;
+	margin-left: 27%;
+
+}
+nav ul{
+	list-style: none;
+	overflow: hidden;
+	margin-left: 10%;
+
+}
+
+nav ul li{
+	float: left;
+	padding: 10px 25px;
+	border: solid 1px black;
+	margin: 0px 2px;
+	text-decoration: none;
+	width: 237px;
+	text-align: center;
+}
+
+nav ul li a:hover{
+	padding: 10px 20px;
+	display: block;
+	font-family: sans-serif;
+	transition: all 0.7s ease;
+	text-decoration: none;
+	border-radius: 30px;
+	height: 40px;
+    transition: all 0.5s ease;
+
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+[.class*="col-"]{
+	min-height: 7px;
+	padding: 12px;
+	float: left;
+}
+
+.col{
+	min-height: 7px;
+	padding: 12px;
+	float: left;
+}
+.col-1{
+	width: 8.333333%;
+}
+
+.col-2{
+	width: 16.666667%;
+}
+
+.col-3{
+    width: 25%
+}
+
+.col-4{
+	width: 33.333333%;
+}
+
+.col-5{
+	width: 41.666667%
+}
+
+.col-6{
+	width: 50%;
+}
+
+.col-7{
+	width: 58.333333%:;
+}
+
+.col-8{
+	width: 66.666666%;
+}
+
+.col-9{
+	width: 75%;
+}
+
+.col-10{
+	width: 83.333333%;
+}
+
+.col-11{
+	width: 91.666666%;
+}
+
+.col-12{
+	width: 100%;
+}
+
+.grupal{
+	text-align: center;
+}
+
+.style1{
+	border-top: 2px solid black;
+	width: 70px;
+    margin-left: 50%;
+    margin-bottom:10px;
+}
+
+p{
+	text-align: center;
+	margin-left: 300px;
+	margin-right:300px;
+}
+
+.style2{
+	border-top: 1px solid black;
+	width: 70px;
+    margin-left: 50%;
+    margin-top: 10px;
+}
+
+.caja1{
+	background-image: url("../img/profile-1.png");
+	width: 250px;
+	height: 250px;
+	position: relative;
+	margin-left: -190px;
+	background-size: 100%;
+	
+}
+
+.caja2{
+	background-image: url("../img/profile-2.png");
+	width: 250px;
+	height: 250px;
+	left: 20px;
+	position: relative;
+	margin-top: -250px;
+	margin-left: 105px;
+	background-size: 100%;
+}
+
+.caja3{
+	background-image: url("../img/profile-3.png");
+	width: 250px;
+	height: 250px;
+	margin-top: -250px;
+	margin-left: 440px;
+	position: relative;
+	background-size: 100%;
+}
+
+.caja4{
+	background-image: url("../img/profile-4.png");
+	width: 250px;
+	height: 250px;
+	margin-top: 60px;
+	margin-left: -190px;
+	position: relative;
+	background-size: 100%;
+}
+
+.caja5{
+	background-image: url("../img/profile-5.png");
+	width: 250px;
+	height: 250px;
+	margin-top: -250px;
+	margin-left: 105px;
+	left: 20px;
+	position: relative;
+	background-size: 100%;
+}
+
+.caja6{
+	background-image: url("../img/profile-6.png");
+	width: 250px;
+	height: 250px;
+	margin-top: -250px;
+	margin-left: 440px;
+	position: relative;
+	background-size: 100%;
+}
+
+.nombre{
+	position: absolute;
+	left: 120px;
+	top: 220px;
+	color: white;
+}
+
+.style{
+	border-top: 3px solid black;
+	width: 70px;
+    margin-left: 1285px;
+    margin-bottom:10px;
+    margin-top: 15px;
+}
+
+.coders{
+	margin-left: 500px;
+	text-align: center;
+}
+
+h3{
+	margin-left: -1500px;
+}
+.nombre{
+	margin-left: 400px;
+}
+
+.foto{
+	border-radius: 50%;
+	margin-left: -430px;
+}
+
+.bio{
+	font-size: 18px;
+	text-align: center;
+	margin-left: 100px;
+}
+
+.name{
+	overflow: hidden;
+	margin-left: -420px;
+}
+
+.habili{
+	margin-top: 30px;
+	margin-left: -350px;
+}
+
+.barra1,.barra2,.barra3{
+	background-color: grey;
+	width: 490px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	margin-left: 290px;
+	color: white;
+	text-align: center;
+}
+.barra2{
+	width: 330px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.barra3{
+	width: 150px;
+}
+
+.habili,.portafolio{
+	margin-left:260px;
+}
+
+.foto1,.foto2,.foto3{
+	width: 200px;
+	height: 100px;
+}
+
+.foto1{
+	margin-left: 180px;
+}
+
+.foto2{
+	margin-left: 100px;
+}
